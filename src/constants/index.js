@@ -15,10 +15,9 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  universityLogo,
+  websiteImage,
+  volunteering,
   carrent,
   jobit,
   tripguide,
@@ -46,7 +45,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
@@ -54,7 +53,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Java Developer",
     icon: creator,
   },
 ];
@@ -116,55 +115,42 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Student",
+    company_name: "Concordia University",
+    icon: universityLogo,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "september 2022 - present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Applied principles of data structures and algorithms to real-world coding challenges.",
+      "Contributed to the development of system hardware projects, gaining hands-on experience.",
+      "Utilized Python, C, C++, Java, JavaScript, HTML, CSS, Clojure, and Erlang in various projects.",
+      "Collaborated with cross-functional teams to integrate mathematical concepts into software solutions.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Pet Adoption Website",
+    company_name: "school project",
+    icon: websiteImage,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2023 - april 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and implemented a user-friendly pet adoption platform using JavaScript, HTML, CSS, and PHP.",
+      "Developed a secure login form to enhance user access control and authentication.",
+      "Collaborated with peers, incorporating feedback to improve the website's functionality and design.",
+      "Ensured responsive design and compatibility across different browsers for a seamless user experience.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Volunteer",
+    company_name: "Clothes giveaway",
+    icon: volunteering,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated within a diverse team to organize and facilitate clothes giveaway events, fostering teamwork and interpersonal skills.",
+      "Demonstrated effective communication and coordination while working alongside designers, volunteers, and event managers.",
+      "Gained valuable experience in event planning, community engagement, and building meaningful connections.",
+      "Contributed to creating a positive impact on the community by providing essential clothing items to those in need.",
     ],
   },
 ];
@@ -198,58 +184,50 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Personal Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A digital oasis brought to life through the synergy of JavaScript, HTML, and CSS—my personal website stands as a testament to creativity in code. Crafted meticulously, this virtual haven isn't just about programming languages; it's a showcase where technology and innovation meld harmoniously, offering an immersive and engaging experience.",
     tags: [
       {
-        name: "react",
+        name: "javaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "html",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/b-chrit",
   },
   {
-    name: "Job IT",
+    name: "Snake Game",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Created a Snake game entirely using Java programming. This project greatly enhanced my grasp of object-oriented programming concepts, as I meticulously designed and implemented various elements of the game. It was an invaluable experience that bolstered my coding abilities and problem-solving skills.",
     tags: [
       {
-        name: "react",
+        name: "java",
         color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/b-chrit",
   },
   {
-    name: "Trip Guide",
+    name: "Todo list",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a comprehensive to-do list website using the trifecta of JavaScript, HTML, and CSS. Through this project, I not only honed my web development prowess but also deepened my understanding of frontend scripting, structuring, and styling techniques. It was an enriching endeavor that expanded my skill set significantly.",
     tags: [
       {
-        name: "nextjs",
+        name: "javaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -258,7 +236,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/b-chrit",
   },
 ];
 

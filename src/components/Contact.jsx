@@ -7,6 +7,8 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -18,8 +20,7 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-    const { target } = e;
-    const { name, value } = target;
+    const { name, value } = e.target;
 
     setForm({
       ...form,
@@ -30,19 +31,21 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
+    //apwKWKQJR99ReOXEs
+    //template_3aynlv9  
+    //service_d990bol
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_d990bol',
+        "template_3aynlv9",
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "BaraaChrit",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "baraaadnan01@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'apwKWKQJR99ReOXEs'
       )
       .then(
         () => {
@@ -109,7 +112,7 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder='What dp you want to say?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
